@@ -1,13 +1,21 @@
 body {
-    background-color: lightblue;
-    text-align: center;
+    background-image:url('https://images.unsplash.com/photo-1541348263662-e068662d82af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3BvcnRzJTIwY2FyfGVufDB8fDB8fA%3D%3D&w=1000&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: azure;    
+    margin: auto;
 }
-
+ h1, p {
+    text-align: center;
+    width: 60ch;
+    margin: auto;
+ }
 form {
     max-width: 500px;
-    text-align: left;
     padding:20px solid black;
     border-radius: 10px;
+    margin: auto;
 }
 
 input {
